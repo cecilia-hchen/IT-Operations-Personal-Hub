@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+
+#Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Environment variables and secretes
+.env
+.env.*
+!.env.example
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Private data and logs
+data/
+logs
+private/
+exports/
+
+# Build files
+build/
+dist/
+*.spec
